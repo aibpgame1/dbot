@@ -168,4 +168,4 @@ async def on_ready():
     await client.change_presence(activity=discord.Game(name='귀여운 잡것 냥냥이의 그루밍을 받는중'))
     print('ready')
 
-client.run('Nzg5OTMwNTAwOTYxMzM3Mzg0.X95OGw.hihXsOH-BTPJjrgU17Gy88uY6ss')
+client.run(os.environ['token'])
